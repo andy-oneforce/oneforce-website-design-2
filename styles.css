@@ -45,7 +45,7 @@ p{margin:0}
 .center{text-align:center}
 
 /* theme switch: light / dark / system */
-.theme{display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pill);background:var(--pill)}
+.theme{position:fixed;right:20px;bottom:20px;z-index:200;display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pill);background:var(--soft-2);border:1px solid var(--line)}
 .theme button{all:unset;box-sizing:border-box;width:30px;height:28px;border-radius:var(--r-pill);display:grid;place-items:center;cursor:pointer;color:var(--muted);transition:background var(--t) var(--ease),color var(--t) var(--ease)}
 .theme button:hover{color:var(--ink)}
 .theme button[aria-pressed=true]{background:var(--page);color:var(--ink);box-shadow:0 1px 2px var(--shadow)}
