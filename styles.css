@@ -4,26 +4,26 @@
 :root{
   color-scheme:light;
   --ink:#1C1917; --ink-2:#57534D; --muted:#6B645E; --page:#FFFFFF; --soft:#FAFAF9; --soft-2:#F4F3F2; --pill:#EFEEED;
-  --line:#E7E5E4; --accent:#FE551B; --accent-ink:#B93A0B;
+  --line:#E7E5E4; --accent:#001FEA; --accent-ink:#0018B8;
   --f-sans:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
   --f-mono:'Geist Mono',ui-monospace,'SF Mono',Menlo,monospace;
   --s4:4px;--s6:6px;--s8:8px;--s10:10px;--s12:12px;--s14:14px;--s16:16px;--s20:20px;--s24:24px;--s40:40px;--s64:64px;--s112:112px;
   --r-tiny:4px;--r-small:8px;--r-card:16px;--r-input:99px;--r-pill:999px;
   --container:1160px;--narrow:766px;--wide:1345px;--gutter:20px;--gap:112px;
-  --nav-bg:rgba(255,255,255,.88);--chip:#fff;--btn-dark-hover:#3b3532;--btn-light-hover:#E4E2E0;--card-hover:#D6D3D1;--input-line:#D6D3D1;--input-line-hover:#A8A29E;--placeholder:#8A837D;--on-ink:#fff;--shadow:rgba(28,25,23,.06);--focus-ring:rgba(28,25,23,.14);--glow-a:rgba(254,85,27,.16);--glow-b:rgba(254,85,27,.09);--glow-c:rgba(28,25,23,.05);--glow-d:rgba(254,85,27,.12);--err:#B42318;--err-bg:#FEF3F2;--ok:#05603A;--ok-bg:#ECFDF3;--logo-filter:none;--nav-link:#656973;
+  --nav-bg:rgba(255,255,255,.88);--chip:#fff;--btn-dark-hover:#3b3532;--btn-light-hover:#E4E2E0;--card-hover:#D6D3D1;--input-line:#D6D3D1;--input-line-hover:#A8A29E;--placeholder:#8A837D;--on-ink:#fff;--shadow:rgba(28,25,23,.06);--focus-ring:rgba(28,25,23,.14);--glow-a:rgba(0,31,234,.16);--glow-b:rgba(0,31,234,.09);--glow-c:rgba(28,25,23,.05);--glow-d:rgba(0,31,234,.12);--err:#B42318;--err-bg:#FEF3F2;--ok:#05603A;--ok-bg:#ECFDF3;--logo-filter:none;--nav-link:#656973;
   --t:200ms;--ease:cubic-bezier(.2,0,0,1);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
   color-scheme:dark;
   --ink:#F5F4F2; --ink-2:#B8B2AC; --muted:#9A938C; --page:#12100F; --soft:#1A1816; --soft-2:#24211F; --pill:#2A2725;
-  --line:#2E2A27; --accent:#FE551B; --accent-ink:#FF8A5E;
-  --nav-bg:rgba(18,16,15,.88);--chip:#1F1C1A;--btn-dark-hover:#FFFFFF;--btn-light-hover:#35312E;--card-hover:#4A4541;--input-line:#4A4541;--input-line-hover:#6B645E;--placeholder:#8A837D;--on-ink:#12100F;--shadow:rgba(0,0,0,.45);--focus-ring:rgba(245,244,242,.25);--glow-a:rgba(254,85,27,.22);--glow-b:rgba(254,85,27,.12);--glow-c:rgba(245,244,242,.05);--glow-d:rgba(254,85,27,.16);--err:#F97066;--err-bg:#3A1B18;--ok:#47CD89;--ok-bg:#12261C;--logo-filter:invert(1) brightness(.92);--nav-link:#A8A29E;
+  --line:#2E2A27; --accent:#001FEA; --accent-ink:#8FA2FF;
+  --nav-bg:rgba(18,16,15,.88);--chip:#1F1C1A;--btn-dark-hover:#FFFFFF;--btn-light-hover:#35312E;--card-hover:#4A4541;--input-line:#4A4541;--input-line-hover:#6B645E;--placeholder:#8A837D;--on-ink:#12100F;--shadow:rgba(0,0,0,.45);--focus-ring:rgba(245,244,242,.25);--glow-a:rgba(0,31,234,.22);--glow-b:rgba(0,31,234,.12);--glow-c:rgba(245,244,242,.05);--glow-d:rgba(0,31,234,.16);--err:#F97066;--err-bg:#3A1B18;--ok:#47CD89;--ok-bg:#12261C;--logo-filter:invert(1) brightness(.92);--nav-link:#A8A29E;
 }}
 :root[data-theme=dark]{
   color-scheme:dark;
   --ink:#F5F4F2; --ink-2:#B8B2AC; --muted:#9A938C; --page:#12100F; --soft:#1A1816; --soft-2:#24211F; --pill:#2A2725;
-  --line:#2E2A27; --accent:#FE551B; --accent-ink:#FF8A5E;
-  --nav-bg:rgba(18,16,15,.88);--chip:#1F1C1A;--btn-dark-hover:#FFFFFF;--btn-light-hover:#35312E;--card-hover:#4A4541;--input-line:#4A4541;--input-line-hover:#6B645E;--placeholder:#8A837D;--on-ink:#12100F;--shadow:rgba(0,0,0,.45);--focus-ring:rgba(245,244,242,.25);--glow-a:rgba(254,85,27,.22);--glow-b:rgba(254,85,27,.12);--glow-c:rgba(245,244,242,.05);--glow-d:rgba(254,85,27,.16);--err:#F97066;--err-bg:#3A1B18;--ok:#47CD89;--ok-bg:#12261C;--logo-filter:invert(1) brightness(.92);--nav-link:#A8A29E;
+  --line:#2E2A27; --accent:#001FEA; --accent-ink:#8FA2FF;
+  --nav-bg:rgba(18,16,15,.88);--chip:#1F1C1A;--btn-dark-hover:#FFFFFF;--btn-light-hover:#35312E;--card-hover:#4A4541;--input-line:#4A4541;--input-line-hover:#6B645E;--placeholder:#8A837D;--on-ink:#12100F;--shadow:rgba(0,0,0,.45);--focus-ring:rgba(245,244,242,.25);--glow-a:rgba(0,31,234,.22);--glow-b:rgba(0,31,234,.12);--glow-c:rgba(245,244,242,.05);--glow-d:rgba(0,31,234,.16);--err:#F97066;--err-bg:#3A1B18;--ok:#47CD89;--ok-bg:#12261C;--logo-filter:invert(1) brightness(.92);--nav-link:#A8A29E;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -45,7 +45,7 @@ p{margin:0}
 .center{text-align:center}
 
 /* theme switch: light / dark / system */
-.theme{position:fixed;right:20px;bottom:20px;z-index:200;display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pill);background:var(--soft-2);border:1px solid var(--line)}
+.theme{flex:none;display:inline-flex;gap:2px;padding:3px;border-radius:var(--r-pill);background:var(--soft-2);border:1px solid var(--line)}
 .theme button{all:unset;box-sizing:border-box;width:30px;height:28px;border-radius:var(--r-pill);display:grid;place-items:center;cursor:pointer;color:var(--muted);transition:background var(--t) var(--ease),color var(--t) var(--ease)}
 .theme button:hover{color:var(--ink)}
 .theme button[aria-pressed=true]{background:var(--page);color:var(--ink);box-shadow:0 1px 2px var(--shadow)}
@@ -72,7 +72,7 @@ p{margin:0}
 
 /* eyebrow badge */
 .eyebrow{display:inline-flex;align-items:center;gap:var(--s8);padding:var(--s4) var(--s12) var(--s4) var(--s4);border-radius:var(--r-pill);background:var(--soft-2);font:500 12px/16px var(--f-mono);color:var(--ink-2);letter-spacing:0}
-.eyebrow b{background:var(--accent);color:#1C1917;border-radius:var(--r-pill);padding:var(--s4) var(--s10);font-weight:500}
+.eyebrow b{background:var(--accent);color:#fff;border-radius:var(--r-pill);padding:var(--s4) var(--s10);font-weight:500}
 .tag{font:500 12px/16px var(--f-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 
 /* hero */
